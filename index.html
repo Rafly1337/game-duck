@@ -28,7 +28,7 @@
       context.fillText(`score lo: ${bestScore}`, 9, 50); // best score
       (((birdY < topPipeBottomY || birdY > topPipeBottomY + pipeGap) && pipeX < birdSize * (524/374))// Bird hit pipe?
        || birdY > canvasSize) && // Bird falls off screen
-      ((birdDY = 0), (birdY = 300), (pipeX = canvasSize), (score = 0)); // Bird died
+      ((birdDY = 0), (birdY = 400), (pipeX = canvasSize), (score = 0)); // Bird died
     }, interval)
   </script>
  <h3>copyright &copy 2021 22XploiterCrew</h3>
